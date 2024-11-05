@@ -1,0 +1,422 @@
+[
+  {
+    "_id": "5c8a34ed14eb5c17645c9109",
+    "review": "A breathtaking experience exploring Tokyo's urban culture and hidden gems.",
+    "rating": 5,
+    "user": "5c8a1dfa2f8fb814b56fa181",
+    "tour": "5c88fa8cf4afda39709c2955"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c9110",
+    "review": "Kyoto's temples were magical, especially the serene Kinkaku-ji.",
+    "rating": 4,
+    "user": "5c8a1dfa2f8fb814b56fa181",
+    "tour": "5c88fa8cf4afda39709c2951"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c9111",
+    "review": "Mount Fuji's views were unparalleled; a challenging but rewarding adventure!",
+    "rating": 5,
+    "user": "5c8a1dfa2f8fb814b56fa181",
+    "tour": "5c88fa8cf4afda39709c295a"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c9112",
+    "review": "Exploring Osaka's food scene was a delight, especially at Dotonbori!",
+    "rating": 5,
+    "user": "5c8a1dfa2f8fb814b56fa181",
+    "tour": "5c88fa8cf4afda39709c2975"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c910d",
+    "review": "Okinawa's beaches were paradise! The clear waters and marine life were mesmerizing.",
+    "rating": 5,
+    "user": "5c8a1e1a2f8fb814b56fa182",
+    "tour": "5c88fa8cf4afda39709c2961"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c910e",
+    "review": "Hokkaido's landscapes were stunning, especially the flower fields and hot springs.",
+    "rating": 4,
+    "user": "5c8a1e1a2f8fb814b56fa182",
+    "tour": "5c88fa8cf4afda39709c295d"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c910f",
+    "review": "Kobe's cultural sites were fantastic. Loved the scenic views from Mount Rokko!",
+    "rating": 5,
+    "user": "5c8a1e1a2f8fb814b56fa182",
+    "tour": "5c88fa8cf4afda39709c2987"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9110",
+    "review": "Nara's deer park was peaceful, and the temples were awe-inspiring.",
+    "rating": 4,
+    "user": "5c8a1e1a2f8fb814b56fa182",
+    "tour": "5c88fa8cf4afda39709c2983"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9111",
+    "review": "Exploring Nagoya's historic sites was a unique experience, especially the majestic Nagoya Castle.",
+    "rating": 4,
+    "user": "5c8a24402f8fb814b56fa190",
+    "tour": "5c88fa8cf4afda39709c2979"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9112",
+    "review": "Kyoto's temples are unforgettable. The Arashiyama Bamboo Grove was truly magical.",
+    "rating": 5,
+    "user": "5c8a24402f8fb814b56fa190",
+    "tour": "5c88fa8cf4afda39709c2951"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9113",
+    "review": "Tokyo's urban vibe was thrilling. Shibuya Crossing and Meiji Shrine were highlights.",
+    "rating": 5,
+    "user": "5c8a24402f8fb814b56fa190",
+    "tour": "5c88fa8cf4afda39709c2955"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9114",
+    "review": "The serene beauty of Lake Kawaguchi near Mount Fuji is unforgettable. Worth the challenge!",
+    "rating": 5,
+    "user": "5c8a24402f8fb814b56fa190",
+    "tour": "5c88fa8cf4afda39709c295a"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9115",
+    "review": "Osaka was a blast! From the lively Dotonbori area to the stunning Osaka Castle.",
+    "rating": 5,
+    "user": "5c8a24402f8fb814b56fa190",
+    "tour": "5c88fa8cf4afda39709c2975"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9116",
+    "review": "The Temple Journey in Kyoto was peaceful and inspiring. The Kinkaku-ji is a must-see!",
+    "rating": 5,
+    "user": "5c8a1ec62f8fb814b56fa183",
+    "tour": "5c88fa8cf4afda39709c2951"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9117",
+    "review": "Hokkaido's winter landscape is magical. Sapporo and Otaru Canal were stunning.",
+    "rating": 4,
+    "user": "5c8a1ec62f8fb814b56fa183",
+    "tour": "5c88fa8cf4afda39709c295d"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9118",
+    "review": "The Nagoya tour was rich in history. The Atsuta Shrine and Osu Shopping District were fascinating.",
+    "rating": 4,
+    "user": "5c8a1ec62f8fb814b56fa183",
+    "tour": "5c88fa8cf4afda39709c2979"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9119",
+    "review": "Mount Fuji's view from Lake Kawaguchi was breathtaking. A truly unforgettable adventure!",
+    "rating": 5,
+    "user": "5c8a1ec62f8fb814b56fa183",
+    "tour": "5c88fa8cf4afda39709c295a"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9120",
+    "review": "The Kobe Cultural Journey was fantastic. The Kitano Ijinkan district had such unique charm.",
+    "rating": 5,
+    "user": "5c8a1ec62f8fb814b56fa183",
+    "tour": "5c88fa8cf4afda39709c2987"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9121",
+    "review": "Exploring Tokyo's vibrant Shibuya Crossing and tranquil Meiji Shrine was an amazing blend of culture.",
+    "rating": 5,
+    "user": "5c8a211f2f8fb814b56fa188",
+    "tour": "5c88fa8cf4afda39709c2955"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9122",
+    "review": "Okinawa's beaches were pure paradise! Cape Manzamo was breathtaking.",
+    "rating": 5,
+    "user": "5c8a211f2f8fb814b56fa188",
+    "tour": "5c88fa8cf4afda39709c2961"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9123",
+    "review": "Nara Park was so peaceful, and feeding the deer was a unique experience!",
+    "rating": 4,
+    "user": "5c8a211f2f8fb814b56fa188",
+    "tour": "5c88fa8cf4afda39709c2983"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9124",
+    "review": "The Osaka Explorer tour was packed with culture and flavor. Dotonbori was lively!",
+    "rating": 5,
+    "user": "5c8a211f2f8fb814b56fa188",
+    "tour": "5c88fa8cf4afda39709c2975"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9125",
+    "review": "Kyoto's Fushimi Inari Shrine was a serene experience, especially with the iconic torii gates.",
+    "rating": 5,
+    "user": "5c8a211f2f8fb814b56fa188",
+    "tour": "5c88fa8cf4afda39709c2951"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9126",
+    "review": "Hiking around Mount Fuji and relaxing in the hot springs was the perfect adventure!",
+    "rating": 5,
+    "user": "5c8a211f2f8fb814b56fa188",
+    "tour": "5c88fa8cf4afda39709c295a"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9127",
+    "review": "The Hokkaido Adventure offered beautiful landscapes, but I wish there was more time at each stop.",
+    "rating": 3,
+    "user": "5c8a20d32f8fb814b56fa187",
+    "tour": "5c88fa8cf4afda39709c295d"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9128",
+    "review": "Nagoya's tour was a nice blend of history and culture, especially enjoyed the castle.",
+    "rating": 4,
+    "user": "5c8a20d32f8fb814b56fa187",
+    "tour": "5c88fa8cf4afda39709c2979"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9129",
+    "review": "The Island Paradise tour in Okinawa was fantastic! The beaches were stunning.",
+    "rating": 5,
+    "user": "5c8a20d32f8fb814b56fa187",
+    "tour": "5c88fa8cf4afda39709c2961"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9130",
+    "review": "The Kobe Cultural Journey was interesting, but I expected more variety in activities.",
+    "rating": 3,
+    "user": "5c8a20d32f8fb814b56fa187",
+    "tour": "5c88fa8cf4afda39709c2987"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9131",
+    "review": "The Osaka Explorer tour was delightful, especially loved the street food at Dotonbori!",
+    "rating": 5,
+    "user": "5c8a23c82f8fb814b56fa18d",
+    "tour": "5c88fa8cf4afda39709c2975"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9132",
+    "review": "Exploring Tokyo’s urban spots was enjoyable, but the group size felt a bit large.",
+    "rating": 4,
+    "user": "5c8a23c82f8fb814b56fa18d",
+    "tour": "5c88fa8cf4afda39709c2955"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9133",
+    "review": "The Temple Journey in Kyoto was peaceful, but I expected more interaction with guides.",
+    "rating": 3,
+    "user": "5c8a23c82f8fb814b56fa18d",
+    "tour": "5c88fa8cf4afda39709c2951"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9134",
+    "review": "Mount Fuji tour was fantastic! The scenery was breathtaking, worth every step.",
+    "rating": 5,
+    "user": "5c8a23c82f8fb814b56fa18d",
+    "tour": "5c88fa8cf4afda39709c295a"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9135",
+    "review": "The Nara and Deer Park tour was relaxing. The deer were charming, though it was crowded.",
+    "rating": 4,
+    "user": "5c8a23c82f8fb814b56fa18d",
+    "tour": "5c88fa8cf4afda39709c2983"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9136",
+    "review": "Hokkaido Adventure was underwhelming. Beautiful spots but poorly organized schedule.",
+    "rating": 2,
+    "user": "5c8a23c82f8fb814b56fa18d",
+    "tour": "5c88fa8cf4afda39709c295d"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9137",
+    "review": "Kyoto's Fushimi Inari Shrine was stunning, and the torii gates were a highlight of the trip.",
+    "rating": 5,
+    "user": "5c8a23de2f8fb814b56fa18e",
+    "tour": "5c88fa8cf4afda39709c2951"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9138",
+    "review": "Nagoya Castle was impressive, but I wish there was more time at each location.",
+    "rating": 3,
+    "user": "5c8a23de2f8fb814b56fa18e",
+    "tour": "5c88fa8cf4afda39709c2979"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9139",
+    "review": "Okinawa's beaches were beautiful, but the tour felt rushed overall.",
+    "rating": 4,
+    "user": "5c8a23de2f8fb814b56fa18e",
+    "tour": "5c88fa8cf4afda39709c2961"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9140",
+    "review": "The Hokkaido tour was incredible, especially the Furano Flower Fields. Highly recommend!",
+    "rating": 5,
+    "user": "5c8a23de2f8fb814b56fa18e",
+    "tour": "5c88fa8cf4afda39709c295d"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9141",
+    "review": "The Kobe Cultural Journey was insightful, but it could have included more activities.",
+    "rating": 3,
+    "user": "5c8a23de2f8fb814b56fa18e",
+    "tour": "5c88fa8cf4afda39709c2987"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9142",
+    "review": "The Tokyo Urban Explorer tour was exciting! Loved the mix of tradition and modernity.",
+    "rating": 5,
+    "user": "5c8a24282f8fb814b56fa18f",
+    "tour": "5c88fa8cf4afda39709c2955"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9143",
+    "review": "Nara's Deer Park was delightful, but it was very crowded during our visit.",
+    "rating": 4,
+    "user": "5c8a24282f8fb814b56fa18f",
+    "tour": "5c88fa8cf4afda39709c2983"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9144",
+    "review": "Mount Fuji was breathtaking, but the itinerary felt a bit rushed.",
+    "rating": 4,
+    "user": "5c8a24282f8fb814b56fa18f",
+    "tour": "5c88fa8cf4afda39709c295a"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9145",
+    "review": "Osaka's food and nightlife were amazing! Would have liked more time to explore the markets.",
+    "rating": 4,
+    "user": "5c8a24282f8fb814b56fa18f",
+    "tour": "5c88fa8cf4afda39709c2975"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9146",
+    "review": "The Temple Journey in Kyoto was an unforgettable experience, especially the peaceful Arashiyama Bamboo Grove.",
+    "rating": 5,
+    "user": "5c8a245f2f8fb814b56fa191",
+    "tour": "5c88fa8cf4afda39709c2951"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9147",
+    "review": "Nagoya's historical sites were interesting, but the tour pace was a bit fast for my taste.",
+    "rating": 3,
+    "user": "5c8a245f2f8fb814b56fa191",
+    "tour": "5c88fa8cf4afda39709c2979"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9148",
+    "review": "The Island Paradise tour in Okinawa was perfect for relaxation. Loved Zamami Island!",
+    "rating": 5,
+    "user": "5c8a245f2f8fb814b56fa191",
+    "tour": "5c88fa8cf4afda39709c2961"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9149",
+    "review": "Exploring Hokkaido was a mixed experience; beautiful scenery, but the tour was too crowded.",
+    "rating": 3,
+    "user": "5c8a245f2f8fb814b56fa191",
+    "tour": "5c88fa8cf4afda39709c295d"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9150",
+    "review": "The Kobe Cultural Journey was a great short escape. Mount Rokko had amazing views!",
+    "rating": 4,
+    "user": "5c8a245f2f8fb814b56fa191",
+    "tour": "5c88fa8cf4afda39709c2987"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9151",
+    "review": "Nara's Todai-ji Temple and Deer Park made for a memorable day. The deer were adorable!",
+    "rating": 5,
+    "user": "5c8a245f2f8fb814b56fa191",
+    "tour": "5c88fa8cf4afda39709c2983"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9152",
+    "review": "Osaka Explorer was fun, though I wish there was more variety beyond the main attractions.",
+    "rating": 4,
+    "user": "5c8a245f2f8fb814b56fa191",
+    "tour": "5c88fa8cf4afda39709c2975"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9158",
+    "review": "The Tokyo tour was mostly enjoyable, but some locations felt too crowded and rushed.",
+    "rating": 3,
+    "user": "5c8a24822f8fb814b56fa192",
+    "tour": "5c88fa8cf4afda39709c2955"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9159",
+    "review": "Hokkaido's scenery was beautiful, but the tour guide wasn't very engaging.",
+    "rating": 2,
+    "user": "5c8a24822f8fb814b56fa192",
+    "tour": "5c88fa8cf4afda39709c295d"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9160",
+    "review": "Okinawa's beaches were lovely, but the tour was overpriced for what it offered.",
+    "rating": 3,
+    "user": "5c8a24822f8fb814b56fa192",
+    "tour": "5c88fa8cf4afda39709c2961"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9161",
+    "review": "Nara's deer park was charming, but it was so packed that it was hard to enjoy.",
+    "rating": 3,
+    "user": "5c8a24822f8fb814b56fa192",
+    "tour": "5c88fa8cf4afda39709c2983"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9162",
+    "review": "Nagoya Castle was impressive, but the rest of the tour didn't live up to expectations.",
+    "rating": 2,
+    "user": "5c8a24822f8fb814b56fa192",
+    "tour": "5c88fa8cf4afda39709c2979"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9163",
+    "review": "The Kobe Cultural Journey was a bit underwhelming; I expected more cultural insights.",
+    "rating": 2,
+    "user": "5c8a24a02f8fb814b56fa193",
+    "tour": "5c88fa8cf4afda39709c2987"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9164",
+    "review": "Mount Fuji was stunning, but the tour was too challenging and poorly paced for beginners.",
+    "rating": 3,
+    "user": "5c8a24a02f8fb814b56fa193",
+    "tour": "5c88fa8cf4afda39709c295a"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9165",
+    "review": "The Osaka Explorer had some great spots, but the group size made it feel crowded.",
+    "rating": 3,
+    "user": "5c8a24a02f8fb814b56fa193",
+    "tour": "5c88fa8cf4afda39709c2975"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9166",
+    "review": "The Historic Nagoya Tour was informative but lacked engaging activities.",
+    "rating": 2,
+    "user": "5c8a24a02f8fb814b56fa193",
+    "tour": "5c88fa8cf4afda39709c2979"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c9167",
+    "review": "Kyoto's Temple Journey was nice, but I felt it was too slow-paced and repetitive.",
+    "rating": 3,
+    "user": "5c8a24a02f8fb814b56fa193",
+    "tour": "5c88fa8cf4afda39709c2951"
+  }
+]

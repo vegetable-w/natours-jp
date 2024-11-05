@@ -1,0 +1,455 @@
+[
+  {
+    "startLocation": {
+      "description": "Tokyo, Japan",
+      "type": "Point",
+      "coordinates": [139.6917, 35.6895],
+      "address": "Chiyoda City, Tokyo, Japan"
+    },
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 6,
+    "images": ["tour-2-1.jpg", "tour-2-2.jpg", "tour-2-3.jpg"],
+    "startDates": [
+      "2021-06-19T09:00:00.000Z",
+      "2021-07-20T09:00:00.000Z",
+      "2021-08-18T09:00:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c2955",
+    "name": "The Urban Explorer",
+    "duration": 7,
+    "maxGroupSize": 15,
+    "difficulty": "medium",
+    "guides": ["5c8a22c62f8fb814b56fa18b", "5c8a1f4e2f8fb814b56fa185"],
+    "price": 497,
+    "summary": "Exploring the heart of Japan's vibrant capital, Tokyo.",
+    "description": "Discover the iconic sites and hidden gems of Tokyo, from the bustling Shibuya crossing to the serene Meiji Shrine. Enjoy traditional cuisine and experience modern Tokyo life.",
+    "imageCover": "tour-2-cover.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c2959",
+        "description": "Shibuya Crossing",
+        "type": "Point",
+        "coordinates": [139.701, 35.6595],
+        "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2958",
+        "description": "Asakusa Shrine",
+        "type": "Point",
+        "coordinates": [139.7975, 35.7148],
+        "day": 2
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2957",
+        "description": "Tokyo Tower",
+        "type": "Point",
+        "coordinates": [139.7454, 35.6586],
+        "day": 3
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2956",
+        "description": "Akihabara",
+        "type": "Point",
+        "coordinates": [139.7731, 35.7023],
+        "day": 5
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Kyoto, Japan",
+      "type": "Point",
+      "coordinates": [135.7681, 35.0116],
+      "address": "Kyoto, Japan"
+    },
+    "ratingsAverage": 5,
+    "ratingsQuantity": 9,
+    "images": ["tour-1-1.jpg", "tour-1-2.jpg", "tour-1-3.jpg"],
+    "startDates": [
+      "2021-04-25T09:00:00.000Z",
+      "2021-07-20T09:00:00.000Z",
+      "2021-10-05T09:00:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c2951",
+    "name": "The Temple Journey",
+    "duration": 5,
+    "maxGroupSize": 25,
+    "difficulty": "easy",
+    "guides": [
+      "5c8a21d02f8fb814b56fa189",
+      "5c8a201e2f8fb814b56fa186",
+      "5c8a1f292f8fb814b56fa184"
+    ],
+    "price": 397,
+    "summary": "Explore the historical temples and shrines of Kyoto.",
+    "description": "From the golden Kinkaku-ji to the iconic Fushimi Inari Shrine, immerse yourself in the rich culture and traditions of Kyoto's spiritual landmarks.",
+    "imageCover": "tour-1-cover.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c2954",
+        "description": "Fushimi Inari Shrine",
+        "type": "Point",
+        "coordinates": [135.7754, 34.9671],
+        "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2953",
+        "description": "Kinkaku-ji (Golden Pavilion)",
+        "type": "Point",
+        "coordinates": [135.7292, 35.0394],
+        "day": 3
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2952",
+        "description": "Arashiyama Bamboo Grove",
+        "type": "Point",
+        "coordinates": [135.6668, 35.0094],
+        "day": 5
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Mount Fuji, Japan",
+      "type": "Point",
+      "coordinates": [138.7274, 35.3606],
+      "address": "Mount Fuji, Japan"
+    },
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 6,
+    "images": ["tour-3-1.jpg", "tour-3-2.jpg", "tour-3-3.jpg"],
+    "startDates": [
+      "2022-01-05T10:00:00.000Z",
+      "2022-02-12T10:00:00.000Z",
+      "2023-01-06T10:00:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c295a",
+    "name": "The Fuji Adventurer",
+    "duration": 4,
+    "maxGroupSize": 10,
+    "difficulty": "difficult",
+    "guides": [
+      "5c8a21d02f8fb814b56fa189",
+      "5c8a23412f8fb814b56fa18c",
+      "5c8a1f4e2f8fb814b56fa185"
+    ],
+    "price": 997,
+    "summary": "A thrilling adventure around Japan's iconic Mount Fuji.",
+    "description": "Experience breathtaking views of Mount Fuji, explore the Five Lakes region, and enjoy local hot springs. Perfect for adventure lovers and nature enthusiasts.",
+    "imageCover": "tour-3-cover.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c295c",
+        "description": "Lake Kawaguchi",
+        "type": "Point",
+        "coordinates": [138.7581, 35.5011],
+        "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c295b",
+        "description": "Hakone",
+        "type": "Point",
+        "coordinates": [139.0204, 35.1914],
+        "day": 2
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Okinawa, Japan",
+      "type": "Point",
+      "coordinates": [127.6811, 26.2124],
+      "address": "Okinawa, Japan"
+    },
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 7,
+    "images": ["tour-5-1.jpg", "tour-5-2.jpg", "tour-5-3.jpg"],
+    "startDates": [
+      "2021-08-05T09:00:00.000Z",
+      "2022-03-20T10:00:00.000Z",
+      "2022-08-12T09:00:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c2961",
+    "name": "Island Paradise",
+    "duration": 10,
+    "maxGroupSize": 15,
+    "difficulty": "medium",
+    "guides": [
+      "5c8a21f22f8fb814b56fa18a",
+      "5c8a23412f8fb814b56fa18c",
+      "5c8a201e2f8fb814b56fa186"
+    ],
+    "price": 1497,
+    "summary": "Experience Okinawa's tropical paradise with crystal-clear beaches.",
+    "description": "Discover the natural beauty of Okinawa, Japan's tropical gem. Snorkel in blue waters, explore unique marine life, and relax on pristine beaches.",
+    "imageCover": "tour-5-cover.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c2965",
+        "description": "Kokusai Street",
+        "type": "Point",
+        "coordinates": [127.6856, 26.2125],
+        "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2964",
+        "description": "Zamami Island",
+        "type": "Point",
+        "coordinates": [127.2998, 26.2288],
+        "day": 4
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2963",
+        "description": "Kerama Islands",
+        "type": "Point",
+        "coordinates": [127.4238, 26.1683],
+        "day": 5
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2962",
+        "description": "Cape Manzamo",
+        "type": "Point",
+        "coordinates": [127.8419, 26.5037],
+        "day": 9
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Hokkaido, Japan",
+      "type": "Point",
+      "coordinates": [141.3545, 43.0618],
+      "address": "Sapporo, Hokkaido, Japan"
+    },
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 5,
+    "images": ["tour-4-1.jpg", "tour-4-2.jpg", "tour-4-3.jpg"],
+    "startDates": [
+      "2021-03-11T10:00:00.000Z",
+      "2021-05-02T09:00:00.000Z",
+      "2021-06-09T09:00:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c295d",
+    "name": "Hokkaido Adventure",
+    "duration": 9,
+    "maxGroupSize": 20,
+    "difficulty": "easy",
+    "guides": ["5c8a22c62f8fb814b56fa18b", "5c8a201e2f8fb814b56fa186"],
+    "price": 1197,
+    "summary": "Discover Hokkaido's stunning landscapes and cultural treasures.",
+    "description": "From snow-capped mountains to charming hot springs, experience the best of Hokkaido with a mix of adventure and relaxation.",
+    "imageCover": "tour-4-cover.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c2960",
+        "description": "Sapporo",
+        "type": "Point",
+        "coordinates": [141.3545, 43.0618],
+        "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c295f",
+        "description": "Otaru Canal",
+        "type": "Point",
+        "coordinates": [141.0036, 43.1907],
+        "day": 3
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c295e",
+        "description": "Furano Flower Fields",
+        "type": "Point",
+        "coordinates": [142.3856, 43.3437],
+        "day": 5
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Kobe, Japan",
+      "type": "Point",
+      "coordinates": [135.1955, 34.6901],
+      "address": "Kobe, Japan"
+    },
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 6,
+    "images": ["tour-6-1.jpg", "tour-6-2.jpg", "tour-6-3.jpg"],
+    "startDates": [
+      "2021-06-05T10:00:00.000Z",
+      "2021-12-20T09:00:00.000Z",
+      "2022-05-25T10:00:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c2987",
+    "name": "Kobe Cultural Journey",
+    "duration": 2,
+    "maxGroupSize": 10,
+    "difficulty": "easy",
+    "guides": ["5c8a22c62f8fb814b56fa18b", "5c8a1f292f8fb814b56fa184"],
+    "price": 399,
+    "summary": "Explore the vibrant culture and scenic beauty of Kobe.",
+    "description": "Discover the unique cultural heritage of Kobe. Visit the historic Kitano Ijinkan district, enjoy the scenic views from Mount Rokko, and experience the world-famous Kobe beef.",
+    "imageCover": "tour-6-cover.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c2988",
+        "description": "Kitano Ijinkan District",
+        "type": "Point",
+        "coordinates": [135.183, 34.7025],
+        "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2989",
+        "description": "Mount Rokko",
+        "type": "Point",
+        "coordinates": [135.2547, 34.8145],
+        "day": 2
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Osaka, Japan",
+      "type": "Point",
+      "coordinates": [135.5022, 34.6937],
+      "address": "Osaka, Japan"
+    },
+    "ratingsAverage": 4.9,
+    "ratingsQuantity": 8,
+    "images": ["tour-8-1.jpg", "tour-8-2.jpg", "tour-8-3.jpg"],
+    "startDates": [
+      "2021-04-10T09:00:00.000Z",
+      "2021-07-05T09:00:00.000Z",
+      "2021-11-15T09:00:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c2975",
+    "name": "The Osaka Explorer",
+    "duration": 6,
+    "maxGroupSize": 18,
+    "difficulty": "easy",
+    "guides": ["5c8a21d02f8fb814b56fa189", "5c8a1f4e2f8fb814b56fa185"],
+    "price": 599,
+    "summary": "Discover the rich history, food, and culture of Osaka.",
+    "description": "Explore Osaka's famous street food, historic castles, and vibrant nightlife. From Dotonbori to Osaka Castle, this tour is perfect for food lovers and history buffs.",
+    "imageCover": "tour-8-cover.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c2976",
+        "description": "Osaka Castle",
+        "type": "Point",
+        "coordinates": [135.5244, 34.6873],
+        "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2977",
+        "description": "Dotonbori",
+        "type": "Point",
+        "coordinates": [135.5015, 34.6687],
+        "day": 2
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2978",
+        "description": "Umeda Sky Building",
+        "type": "Point",
+        "coordinates": [135.4894, 34.7054],
+        "day": 4
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Nagoya, Japan",
+      "type": "Point",
+      "coordinates": [136.9066, 35.1815],
+      "address": "Nagoya, Japan"
+    },
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 7,
+    "images": ["tour-9-1.jpg", "tour-9-2.jpg", "tour-9-3.jpg"],
+    "startDates": [
+      "2021-05-15T10:00:00.000Z",
+      "2021-09-10T09:00:00.000Z",
+      "2022-01-20T10:00:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c2979",
+    "name": "Historic Nagoya Tour",
+    "duration": 4,
+    "maxGroupSize": 12,
+    "difficulty": "medium",
+    "guides": ["5c8a22c62f8fb814b56fa18b", "5c8a1f292f8fb814b56fa184"],
+    "price": 499,
+    "summary": "Experience the historical and cultural charm of Nagoya.",
+    "description": "Visit Nagoya Castle, the Atsuta Shrine, and stroll through the Osu Shopping District. This tour combines history, culture, and vibrant shopping experiences.",
+    "imageCover": "tour-9-cover.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c2980",
+        "description": "Nagoya Castle",
+        "type": "Point",
+        "coordinates": [136.8986, 35.1852],
+        "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2981",
+        "description": "Atsuta Shrine",
+        "type": "Point",
+        "coordinates": [136.9074, 35.1302],
+        "day": 2
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2982",
+        "description": "Osu Shopping District",
+        "type": "Point",
+        "coordinates": [136.9054, 35.1626],
+        "day": 3
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Nara, Japan",
+      "type": "Point",
+      "coordinates": [135.8048, 34.6851],
+      "address": "Nara, Japan"
+    },
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 10,
+    "images": ["tour-7-1.jpg", "tour-7-2.jpg", "tour-7-3.jpg"],
+    "startDates": [
+      "2021-10-01T10:00:00.000Z",
+      "2022-03-15T09:00:00.000Z",
+      "2022-07-25T10:00:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c2983",
+    "name": "Nara and Deer Park",
+    "duration": 3,
+    "maxGroupSize": 15,
+    "difficulty": "easy",
+    "guides": ["5c8a21f22f8fb814b56fa18a", "5c8a23412f8fb814b56fa18c"],
+    "price": 299,
+    "summary": "Meet the friendly deer and explore the temples of Nara.",
+    "description": "Enjoy the tranquility of Nara Park and visit the historic Todai-ji Temple, home to Japan's Great Buddha statue. Feed the friendly deer that roam freely in the park.",
+    "imageCover": "tour-7-cover.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c2984",
+        "description": "Todai-ji Temple",
+        "type": "Point",
+        "coordinates": [135.8399, 34.6889],
+        "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2985",
+        "description": "Nara Park",
+        "type": "Point",
+        "coordinates": [135.8399, 34.6851],
+        "day": 2
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2986",
+        "description": "Kasuga Taisha Shrine",
+        "type": "Point",
+        "coordinates": [135.8461, 34.6804],
+        "day": 3
+      }
+    ]
+  }
+]
