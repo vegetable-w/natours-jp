@@ -18,7 +18,7 @@ exports.getCheckoutSession = catchAsync(async (req, res, next) => {
     // success_url: `${req.protocol}://${req.get('host')}/my-tours`,
     success_url: `https://natours-jp.vercel.app/my-tours`,
     // cancel_url: `${req.protocol}://${req.get('host')}/tour/${tour.slug}`,
-    cancel_url: `https://natours-jp.vercel.app/${req.params.tourId}`,
+    cancel_url: `https://natours-jp.vercel.app/tour/${req.params.tourId}`,
     customer_email: req.user.email,
     client_reference_id: req.params.tourId,
     line_items: [
