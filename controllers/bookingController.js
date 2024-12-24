@@ -15,8 +15,10 @@ exports.getCheckoutSession = catchAsync(async (req, res, next) => {
     payment_method_types: ['card'],
     mode: 'payment',
     // success_url: `${req.protocol}://${req.get('host')}/?tour=${req.params.tourId}&user=${req.user.id}&price=${tour.price}`,
-    success_url: `${req.protocol}://${req.get('host')}/my-tours`,
-    cancel_url: `${req.protocol}://${req.get('host')}/tour/${tour.slug}`,
+    // success_url: `${req.protocol}://${req.get('host')}/my-tours`,
+    success_url: `https://natours-jp.vercel.app/my-tours`,
+    // cancel_url: `${req.protocol}://${req.get('host')}/tour/${tour.slug}`,
+    cancel_url: `https://natours-jp.vercel.app/${req.params.tourId}`,
     customer_email: req.user.email,
     client_reference_id: req.params.tourId,
     line_items: [
@@ -27,7 +29,8 @@ exports.getCheckoutSession = catchAsync(async (req, res, next) => {
             name: `${tour.name} Tour`,
             description: tour.summary,
             images: [
-              `${req.protocol}://${req.get('host')}/img/tours/${tour.imageCover}`,
+              // `${req.protocol}://${req.get('host')}/img/tours/${tour.imageCover}`,
+              `https://natours-japan-tours-18991a07f7f0.herokuapp.com/img/tours/${tour.imageCover}`,
             ],
           },
           unit_amount: tour.price * 100,
@@ -70,6 +73,24 @@ exports.webhookCheckout = (req, res, next) => {
 
   res.status(200).json({ received: true });
 };
+
+exports.getMyBookings = catchAsync(async (req, res, next) => {
+  // 1) Find all bookings
+  const bookings = await Booking.find({ user: req.params.userId });
+
+  // 2) Find tours with the returned IDs
+  const tourIDs = bookings.map((el) => el.tour);
+  const tours = await Tour.find({ _id: { $in: tourIDs } });
+
+  // Return the tours as JSON
+  res.status(200).json({
+    status: 'success',
+    results: tours.length,
+    data: {
+      tours,
+    },
+  });
+});
 
 exports.createBooking = factory.createOne(Booking);
 exports.getBooking = factory.getOne(Booking);

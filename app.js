@@ -77,7 +77,7 @@ if (process.env.NODE_ENV === 'development') {
 // limit requests from same API
 const limiter = rateLimit({
   // 允许在一个小时内来自同一ip的100个请求
-  max: 100,
+  max: 1000,
   windowMs: 60 * 60 * 1000,
   message: 'Too many requests from this IP, please try again in an hour.',
 });

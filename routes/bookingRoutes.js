@@ -8,6 +8,8 @@ router.use(authController.protect);
 
 router.get('/checkout-session/:tourId', bookingController.getCheckoutSession);
 
+router.get('/:userId', bookingController.getMyBookings);
+
 router.use(authController.restricTo('admin', 'lead-guide'));
 
 router
