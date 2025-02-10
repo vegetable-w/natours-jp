@@ -1,5 +1,6 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
 const mongoose = require('mongoose');
+const http = require('http');
 
 const dotenv = require('dotenv');
 
@@ -28,8 +29,10 @@ mongoose
   })
   .then(() => console.log('DB connection successful!'));
 
+const server = http.createServer(app);
+
 const port = process.env.PORT || 3000;
-const server = app.listen(port, () => {
+server.listen(port, () => {
   console.log(`App running on port ${port}...`);
 
   // setupWebSocketServer(server);
