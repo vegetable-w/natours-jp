@@ -2,6 +2,7 @@ const Tour = require('../models/tourModel');
 const catchAsync = require('../utils/catchAsync');
 const factory = require('./handlerFactory');
 const AppError = require('../utils/appError');
+const { getChannel } = require('../services/rabbitmq');
 
 exports.aliasTopTour = (req, res, next) => {
   req.query.limit = '5';
@@ -16,7 +17,34 @@ exports.getTour = factory.getOne(Tour, { path: 'reviews' });
 
 exports.createTour = factory.createOne(Tour);
 
-exports.updateTour = factory.updateOne(Tour);
+exports.updateTour = catchAsync(async (req, res, next) => {
+  const tourId = req.params.id;
+  const doc = await Tour.findByIdAndUpdate(tourId, req.body, {
+    new: true,
+    runValidators: true,
+  });
+
+  if (!doc) {
+    return next(new AppError('No document found with that ID', 404));
+  }
+
+  const channel = getChannel();
+  const tourName = doc.name;
+  const newPrice = doc.price;
+
+  channel.sendToQueue(
+    'priceChangeQueue',
+    Buffer.from(JSON.stringify({ tourId, tourName, newPrice })),
+    { persistent: true },
+  );
+
+  res.status(200).json({
+    status: 'success',
+    data: {
+      data: doc,
+    },
+  });
+});
 
 exports.deleteTour = factory.deleteOne(Tour);
 
