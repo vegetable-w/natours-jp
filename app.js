@@ -26,6 +26,9 @@ const reviewRouter = require('./routes/reviewRoutes');
 const viewRouter = require('./routes/viewRoutes');
 const bookingRouter = require('./routes/bookingRoutes');
 const bookController = require('./controllers/bookingController');
+const favoriteRouter = require('./routes/favoriteRoutes');
+const videoUploadRouter = require('./routes/videoUploadRoutes');
+const videoRouter = require('./routes/videoRoutes');
 
 const app = express();
 
@@ -128,7 +131,10 @@ app.use('/', viewRouter);
 app.use('/api/v1/tours', tourRouter);
 app.use('/api/v1/users', userRouter);
 app.use('/api/v1/reviews', reviewRouter);
+app.use('/api/v1/videos/upload', videoUploadRouter);
+app.use('/api/v1/videos', videoRouter);
 app.use('/api/v1/bookings', bookingRouter);
+app.use('/api/v1/favorites', favoriteRouter);
 
 app.all('*', (req, res, next) => {
   next(new AppError(`Can't find ${req.originalUrl} on this server`, 404));
