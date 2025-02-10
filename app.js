@@ -36,19 +36,27 @@ app.set('view engine', 'pug');
 app.set('views', path.join(__dirname, 'views'));
 
 // 1) GLOBAL MIDDLEWARES
-app.enable('trust proxy');
-
-app.use((req, res, next) => {
-  if (req.secure) {
-    next();
-  } else {
-    res.redirect(301, `https://${req.headers.host}${req.url}`);
-  }
-});
 
 // Implement CORS
 app.use(cors());
 app.options('*', cors());
+
+app.enable('trust proxy');
+
+app.use((req, res, next) => {
+  if (req.headers.host.includes('herokuapp.com')) {
+    req.headers['X-Forwarded-Proto'] = 'https';
+  }
+  next();
+});
+
+app.use((req, res, next) => {
+  if (req.headers.host.includes('herokuapp.com')) {
+    req.headers['x-forwarded-proto'] = 'https';
+  }
+  next();
+});
+
 // serving static files
 app.use(express.static(path.join(__dirname, 'public')));
 
