@@ -14,6 +14,7 @@ const store = new FileStore({
 const tusServer = new Server({
   path: '/api/v1/videos/upload/files',
   datastore: store,
+  behindProxy: true,
 });
 
 tusServer.on(EVENTS.POST_FINISH, async (req, res, upload) => {
@@ -25,15 +26,6 @@ tusServer.on(EVENTS.POST_FINISH, async (req, res, upload) => {
 });
 
 router.all('/files/*', (req, res) => {
-  if (req.method === 'POST') {
-    const protocol = req.headers['x-forwarded-proto'] || req.protocol;
-    // eslint-disable-next-line prefer-destructuring
-    const host = req.headers.host;
-    const locationUrl = `${protocol}://${host}${req.baseUrl}${req.url}`;
-
-    res.setHeader('Location', locationUrl);
-  }
-
   tusServer.handle(req, res);
 });
 
