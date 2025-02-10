@@ -14,7 +14,6 @@ const store = new FileStore({
 const tusServer = new Server({
   path: '/api/v1/videos/upload/files',
   datastore: store,
-  behindProxy: true,
 });
 
 tusServer.on(EVENTS.POST_FINISH, async (req, res, upload) => {

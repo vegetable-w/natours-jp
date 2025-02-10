@@ -37,6 +37,15 @@ app.set('views', path.join(__dirname, 'views'));
 
 // 1) GLOBAL MIDDLEWARES
 app.enable('trust proxy');
+
+app.use((req, res, next) => {
+  if (req.secure) {
+    next();
+  } else {
+    res.redirect(301, `https://${req.headers.host}${req.url}`);
+  }
+});
+
 // Implement CORS
 app.use(cors());
 app.options('*', cors());
