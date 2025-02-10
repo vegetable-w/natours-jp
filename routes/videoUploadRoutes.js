@@ -14,10 +14,7 @@ const store = new FileStore({
 const tusServer = new Server({
   path: '/api/v1/videos/upload/files',
   datastore: store,
-  generateUrl: (req, { host, id }) => {
-    const protocol = req.headers['X-Forwarded-Proto'] || 'http';
-    return `${protocol}://${host}/api/v1/videos/upload/files/${id}`;
-  },
+  respectForwardedHeaders: true,
 });
 
 tusServer.on(EVENTS.POST_FINISH, async (req, res, upload) => {
