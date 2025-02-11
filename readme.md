@@ -1,19 +1,25 @@
 # Natour-jp
 
-**Natour-jp** is a web application that enables users to browse and book guided tours across various destinations in Japan. Built with Node.js, Express, Mongoose, and MongoDB, it provides an easy and intuitive way for users to explore available tours and make reservations.
-
-## Live Demo
-
-You can access the live version of the application here: [Natour-jp Live](https://natours-japan-tours-18991a07f7f0.herokuapp.com/)
+**Natour-jp** is a web application that enables users to browse and book guided tours across various destinations in Japan. Built with Node.js, Express, Mongoose, and MongoDB.
 
 ## Features
 
 - **Browse Tours**: Users can explore a list of available tours in Japan.
 - **Booking System**: Allows users to book tours and manage their reservations.
 - **User Authentication**: Backend implementation for secure login and registration (front-end signup UI pending).
+- **New Features**:
+  - **Comment System**: Users can leave comments on tours and engage with other users.
+  - **Video Upload**: Users can upload videos related to their tour experiences.
+  - **Favorites**: Users can save and manage their favorite tours.
+  - **Price Change Notifications (Upcoming Deployment)**: Users will receive real-time push notifications when the price of their favorited tours changes. _(This feature is not yet deployed on Heroku but will be included in future updates.)_
 
 ## Tech Stack
 
 - **Backend**: Node.js, Express
 - **Database**: MongoDB, Mongoose
-- **Frontend / Templating**: Pug for server-side rendering, JavaScript
+- **Frontend**: [React frontend repository](https://github.com/vegetable-w/natours-jp-react) for a modern and dynamic user experience.
+- **Templating (legacy)**: Pug for server-side rendering (used in the initial version).
+
+## Deployment
+
+- The server-side is deployed on **Heroku**.
