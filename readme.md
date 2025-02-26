@@ -19,6 +19,7 @@
 - **Frontend**: [React frontend repository](https://github.com/vegetable-w/natours-jp-react) for a modern and dynamic user experience.
 - **Templating (legacy)**: Pug for server-side rendering (used in the initial version).
 - **Uploads & Storage**: tus, Cloudinary
+- **Payment**: Stripe
 
 ## Deployment
 
