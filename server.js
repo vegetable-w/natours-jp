@@ -4,8 +4,8 @@ const http = require('http');
 
 const dotenv = require('dotenv');
 
-// const { initRabbitMQConsumer } = require('./services/rabbitmqConsumer');
-// const { setupWebSocketServer } = require('./services/websocket');
+const { initRabbitMQConsumer } = require('./services/rabbitmqConsumer');
+const { setupWebSocketServer } = require('./services/websocket');
 
 process.on('uncaughtException', (err) => {
   console.log('UNCAUGHT EXCEPTION! 💥 Shutting down...');
@@ -35,8 +35,8 @@ const port = process.env.PORT || 3000;
 server.listen(port, () => {
   console.log(`App running on port ${port}...`);
 
-  // setupWebSocketServer(server);
-  // initRabbitMQConsumer();
+  setupWebSocketServer(server);
+  initRabbitMQConsumer();
 });
 
 process.on('unhandledRejection', (err) => {

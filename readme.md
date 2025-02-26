@@ -7,11 +7,10 @@
 - **Browse Tours**: Users can explore a list of available tours in Japan.
 - **Booking System**: Allows users to book tours and manage their reservations.
 - **User Authentication**: Backend implementation for secure login and registration (front-end signup UI pending).
+- **Comment System**: Users can leave comments on tours and engage with other users.
 - **New Features**:
-  - **Comment System**: Users can leave comments on tours and engage with other users.
   - **Video Upload**: Users can upload videos related to their tour experiences.
   - **Favorites**: Users can save and manage their favorite tours.
-  - **Price Change Notifications (Upcoming Deployment)**: Users will receive real-time push notifications when the price of their favorited tours changes. _(This feature is not yet deployed on Heroku but will be included in future updates.)_
 
 ## Tech Stack
 
@@ -20,9 +19,6 @@
 - **Frontend**: [React frontend repository](https://github.com/vegetable-w/natours-jp-react) for a modern and dynamic user experience.
 - **Templating (legacy)**: Pug for server-side rendering (used in the initial version).
 - **Uploads & Storage**: tus, Cloudinary
-- **Real-Time Communication**: WebSocket
-- **Cache**: Redis
-- **Message System**: RabbitMQ
 
 ## Deployment
 
