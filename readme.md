@@ -1,26 +1,26 @@
 # Natour-jp
 
-**Natour-jp** is a web application that enables users to browse and book guided tours across various destinations in Japan. Built with Node.js, Express, Mongoose, and MongoDB.
+**Natour-jp** は、日本各地のガイド付きツアーを閲覧・予約できるWebアプリケーションです。Node.js、Express、Mongoose、MongoDBを使用して構築されています。
 
-## Features
+## 特徴
 
-- **Browse Tours**: Users can explore a list of available tours in Japan.
-- **Booking System**: Allows users to book tours and manage their reservations.
-- **User Authentication**: Backend implementation for secure login and registration (front-end signup UI pending).
-- **Comment System**: Users can leave comments on tours and engage with other users.
-- **New Features**:
-  - **Video Upload**: Users can upload videos related to their tour experiences.
-  - **Favorites**: Users can save and manage their favorite tours.
+- **ツアーの閲覧**: 日本国内の利用可能なツアーを一覧表示し、詳細を確認できます。
+- **予約システム**: ユーザーはツアーを予約し、予約状況を管理できます。
+- **ユーザー認証**: セキュアなログイン・登録機能をバックエンドで実装（フロントエンドのサインアップUIは未完成）。
+- **コメントシステム**: ユーザーがツアーにコメントを投稿し、他のユーザーと交流できます。
+- **新機能**:
+  - **動画アップロード**: ユーザーがツアー体験に関する動画をアップロード可能。
+  - **お気に入り機能**: お気に入りのツアーを保存・管理できます。
 
-## Tech Stack
+## 技術スタック
 
-- **Backend**: Node.js, Express
-- **Database**: MongoDB, Mongoose
-- **Frontend**: [React frontend repository](https://github.com/vegetable-w/natours-jp-react) for a modern and dynamic user experience.
-- **Templating (legacy)**: Pug for server-side rendering (used in the initial version).
-- **Uploads & Storage**: tus, Cloudinary
-- **Payment**: Stripe
+- **バックエンド**: Node.js, Express
+- **データベース**: MongoDB, Mongoose
+- **フロントエンド**: [Reactフロントエンドリポジトリ](https://github.com/vegetable-w/natours-jp-react)
+- **テンプレートエンジン**: Pug（初期バージョンで使用）
+- **アップロード & ストレージ**: tus, Cloudinary
+- **決済**: Stripe
 
-## Deployment
+## デプロイ
 
-- The server-side is deployed on **Heroku**.
+- バックエンドは **Heroku** にデプロイされています。
